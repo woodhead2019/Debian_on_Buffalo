@@ -55,6 +55,25 @@ Description: Linux kernel headers for 6.12.105 on armel
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.12.107
+Source: linux-upstream
+Version: 6.12.107-19
+Architecture: armel
+Maintainer: root <root@8b3bf09031e0>
+Installed-Size: 49263
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-6.12.107_6.12.107-19_armel.deb
+Size: 8272192
+SHA256: 20a7c360ea4531b27c21046526846581c56a463acdc228c3d54a0723aab68e8d
+SHA1: 20ad8e3a1151d8079f8085383786214975bd9dc5
+MD5sum: d6965b8b15acb8233fa8e6dabd622e21
+Description: Linux kernel headers for 6.12.107 on armel
+ This package provides kernel header files for 6.12.107 on armel
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-6.12.38
 Source: linux-upstream
 Version: 6.12.38-1
@@ -375,6 +394,24 @@ Description: Linux kernel, version 6.12.105
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.12.105.
 
+Package: linux-image-6.12.107
+Source: linux-upstream
+Version: 6.12.107-19
+Architecture: armel
+Maintainer: root <root@8b3bf09031e0>
+Installed-Size: 14337
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-6.12.107_6.12.107-19_armel.deb
+Size: 6966072
+SHA256: b45735461933e5ffff2ad27bb1e4550aa9a1d554cb4d35f4cb0ebbe0ca23fd70
+SHA1: 355ea71c7874687eed68edb58444a701f51ddfd4
+MD5sum: 77614987e66eb8aa693111fd5f44786b
+Description: Linux kernel, version 6.12.107
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.12.107.
+
 Package: linux-image-6.12.38
 Source: linux-upstream
 Version: 6.12.38-1
@@ -628,37 +665,37 @@ Description: Linux kernel, version 6.12.96
  files, version: 6.12.96.
 
 Package: linux-image-marvell-buffalo
-Version: 6.12.105-18
+Version: 6.12.107-19
 Architecture: armel
-Maintainer: Equivs Dummy Package Generator <root@530901c2555b>
+Maintainer: Equivs Dummy Package Generator <root@8b3bf09031e0>
 Installed-Size: 9
-Depends: linux-image-6.12.105 (= 6.12.105-18), linux-headers-6.12.105 (= 6.12.105-18), linux-libc-dev (= 6.12.105-18)
+Depends: linux-image-6.12.107 (= 6.12.107-19), linux-headers-6.12.107 (= 6.12.107-19), linux-libc-dev (= 6.12.107-19)
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-image-marvell-buffalo/linux-image-marvell-buffalo_6.12.105-18_armel.deb
-Size: 2300
-SHA256: ac36feadac4e78a08e12c3e1b350b2265483f2ed05d930257e80717cd36b3762
-SHA1: 7419b506be4fabae920533dddfe38ffd9a48c35d
-MD5sum: 1b9ed94c5cd2c35fec4034c218065e25
+Filename: pool/main/l/linux-image-marvell-buffalo/linux-image-marvell-buffalo_6.12.107-19_armel.deb
+Size: 2296
+SHA256: 97f5bceb4246397222d4e40f3735857439d12078b9658f244998c737409b42e1
+SHA1: ebf1dc56a2e4f5bce86671f4bebd3457579b2c04
+MD5sum: 52eb6944f2a8fb90ff48bddcb103a2cb
 Description: linux-image metapackage for armel devices with tweaks for terastation support
 
 Package: linux-libc-dev
 Source: linux-upstream
-Version: 6.12.105-18
+Version: 6.12.107-19
 Architecture: armel
-Maintainer: root <root@530901c2555b>
+Maintainer: root <root@8b3bf09031e0>
 Installed-Size: 7013
 Provides: linux-kernel-headers
 Multi-Arch: same
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-upstream/linux-libc-dev_6.12.105-18_armel.deb
-Size: 1357896
-SHA256: fc66c413e0ff6a5c66c4d531e98b4041306f89f17c7b9ca825a92a2cc783edd8
-SHA1: 0a6f8888ca3034c65f039ea5290d6e4383a97cb3
-MD5sum: 89508a1df1c3eed0f4ac0d8222b0a55f
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.12.107-19_armel.deb
+Size: 1357880
+SHA256: 95ec65043f00f8abf671cb3da6772340164f4554e71897301c3f51073b18d68a
+SHA1: 16f499da3facee2c9645cdb96bc71876bb06addf
+MD5sum: bc3a9f1fcb3ee2773756c8829acf79a0
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
